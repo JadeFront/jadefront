@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jadefront/static/css/main.f613b706.css",
+    "main.js": "/jadefront/static/js/main.7958a57c.js",
+    "static/js/787.7da95b79.chunk.js": "/jadefront/static/js/787.7da95b79.chunk.js",
+    "static/media/home.JPG": "/jadefront/static/media/home.94f66df97d1f7b0a514f.JPG",
+    "static/media/about.jpg": "/jadefront/static/media/about.dc4f72dcb70df88566ad.jpg",
+    "static/media/home.png": "/jadefront/static/media/home.7c4aef61073d355c4a69.png",
+    "static/media/CV-Ayat_JadeLester.pdf": "/jadefront/static/media/CV-Ayat_JadeLester.8daed24c34103a1f0f37.pdf",
+    "static/media/jadesweets.jpg": "/jadefront/static/media/jadesweets.4e938ba359de97930af8.jpg",
+    "index.html": "/jadefront/index.html",
+    "main.f613b706.css.map": "/jadefront/static/css/main.f613b706.css.map",
+    "main.7958a57c.js.map": "/jadefront/static/js/main.7958a57c.js.map",
+    "787.7da95b79.chunk.js.map": "/jadefront/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f613b706.css",
+    "static/js/main.7958a57c.js"
+  ]
+}
