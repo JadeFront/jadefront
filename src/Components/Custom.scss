@@ -1,0 +1,13 @@
+
+$primary: #222831;
+$secondary: #FFEED9;
+
+/* The following line can be included in a src/App.scss */
+@import '~bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&display=swap');
+
+
+:root{
+    --bs-body-font-family: "Orbitron", sans-serif;
+}

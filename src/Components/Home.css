@@ -1,0 +1,268 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&display=swap');
+
+@media screen and (max-width: 480px){
+    .home-container{
+        background-color: #222831;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 2rem 0 5rem 0;
+    }
+    .home-intro{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: .3rem;
+        margin-left: .8rem;
+    }
+    .upper-intro{
+        position: relative;
+    }
+    .home-intro h2{
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        width: 80%;
+        font-size: 1.3rem;
+        color: #FFEED9;
+        text-align: left;
+    }
+    .home-intro p{
+        display: flex;
+        justify-content: flex-start;
+        color: #FFEED9;
+        max-width: 80%;
+        font-size: .8rem;
+        font-family: "Archivo Narrow", sans-serif;
+    }
+    .home-intro .home-logo{
+        display: flex;
+        gap: 1rem;
+    }
+    .home-intro button{
+        background-color: #222831;
+        max-width: 100%;
+        padding: .6rem 1rem;
+        color: #FFEED9;
+        border: solid #FFEED9 2px;
+        cursor: pointer;
+        font-family: "Archivo Narrow", sans-serif;
+        font-size: .8rem;
+    }
+    
+    .home-intro button:hover{
+        color: #222831;
+        background-color: #FFEED9;
+        transition: .5s;
+    }
+    .profile-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-container .home-profile{
+        max-width: 60%;
+        right: 0;
+        margin-left: 7rem;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .home-container{
+        background-color: #222831;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: 2rem 0 5rem 0;
+    }
+    .home-intro{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: .3rem;
+        margin-left: 2rem;
+    }
+    .upper-intro{
+        position: relative;
+    }
+    .home-intro h2{
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        width: 85%;
+        font-size: 1.8rem;
+        color: #FFEED9;
+        text-align: left;
+    }
+    .home-intro p{
+        display: flex;
+        justify-content: flex-start;
+        color: #FFEED9;
+        max-width: 70%;
+        font-size: .9rem;
+        font-family: "Archivo Narrow", sans-serif;
+    }
+    .home-intro .home-logo{
+        display: flex;
+        gap: 1rem;
+    }
+    .home-intro button{
+        background-color: #222831;
+        max-width: 100%;
+        padding: .6rem 1rem;
+        color: #FFEED9;
+        border: solid #FFEED9 2px;
+        cursor: pointer;
+        font-family: "Archivo Narrow", sans-serif;
+        font-size: .8rem;
+    }
+    .home-intro button:hover{
+        color: #222831;
+        background-color: #FFEED9;
+        transition: .5s;
+    }
+    .profile-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-container .home-profile{
+        max-width: 30%;
+        right: 0;
+        margin-left: 15rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .home-container{
+        background-color: #222831;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 95%;
+    }
+    .home-intro{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: .4rem;
+        margin-left: 7rem;
+    }
+    .home-intro h2{
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        max-width: 80%;
+        font-size: 2rem;
+        color: #FFEED9;
+        text-align: left;
+    }
+    .home-intro p{
+        display: flex;
+        justify-content: flex-start;
+        color: gray;
+        max-width: 70%;
+        font-size: 1rem;
+        font-family: "Archivo Narrow", sans-serif;
+    }
+    .home-intro .home-logo{
+        display: flex;
+        gap: 1rem;
+    }
+    .home-intro button{
+        background-color: #222831;
+        max-width: 100%;
+        padding: .8rem 1rem;
+        color: #FFEED9;
+        border: solid #FFEED9 2px;
+        cursor: pointer;
+        font-family: "Archivo Narrow", sans-serif;
+        font-size: .9rem;
+    }
+    .home-intro button:hover{
+        color: #222831;
+        background-color: #FFEED9;
+        transition: .5s;
+    }
+    .profile-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-container .home-profile{
+        max-width: 30%;
+        right: 0;
+        margin-left: 25rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .home-container{
+        background-color: #222831;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 90%;
+        margin: 2rem 0 5rem 0;
+    }
+    .home-intro{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: .5rem;
+        margin-left: 10rem;
+    }
+    .home-intro h2{
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        max-width: 80%;
+        font-size: 2.5rem;
+        color: #FFEED9;
+        text-align: left;
+    }
+    .home-intro p{
+        display: flex;
+        justify-content: flex-start;
+        color: gray;
+        width: 70%;
+        font-size: 1.1rem;
+        font-family: "Archivo Narrow", sans-serif;
+    }
+    .home-intro .home-logo{
+        display: flex;
+        gap: 1rem;
+    }
+    .home-intro button{
+        background-color: #222831;
+        max-width: 100%;
+        padding: 1rem 2rem;
+        color: #FFEED9;
+        border: solid #FFEED9 2px;
+        cursor: pointer;
+        font-family: "Archivo Narrow", sans-serif;
+        font-size: 1rem;
+    }
+    .home-intro button:hover{
+        color: #222831;
+        background-color: #FFEED9;
+        transition: .5s;
+    }
+    .profile-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-container .home-profile{
+        max-width: 30%;
+        right: 0;
+        margin-left: 40rem;
+    }
+}

@@ -1,0 +1,319 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Protest+Strike&family=Rowdies:wght@300;400;700&family=Single+Day&display=swap');
+
+@media screen and (max-width: 480px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        gap: 3rem;
+        background-color: #222831;
+    }
+    .footer-intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+        padding-top: 8rem;
+    }
+    .footer-intro h1{
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5rem;
+        color: #FFEED9;
+    }
+    .footer-intro button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .5rem 1.5rem .5rem 1.5rem;
+        background-color: #FFEED9;
+        color: #222831;
+    }
+    .footer-content{
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        max-width: 100%;
+    }
+    .footer-content{
+        color: #FFEED9;
+    }
+    .footer-content h3{
+        font-size: .7rem;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .navigation a{
+        color: #FFEED9;
+        font-size: .5rem;
+        text-decoration: none;
+    }
+    .footer-social{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .footer-social a{
+        color: #FFEED9;
+        font-size: .5rem;
+        text-decoration: none;
+    }
+    .footer-contact{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        color: #FFEED9;
+    }
+    .footer-contact a, p{
+        color: #FFEED9;
+        font-size: .5rem;
+        text-decoration: none;
+    }
+    .footer-end p{
+        color: #FFEED9;
+        font-size: .5rem;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        gap: 3rem;
+        background-color: #222831;
+    }
+    .footer-intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding-top: 8rem;
+    }
+    .footer-intro h1{
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+        color: #FFEED9;
+    }
+    .footer-intro button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .7rem 2rem .7rem 2rem;
+        background-color: #FFEED9;
+        color: #222831;
+    }
+    .footer-content{
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+        max-width: 100%;
+    }
+    .footer-content{
+        color: #FFEED9;
+    }
+    .footer-content h3{
+        font-size: .8rem;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .navigation a{
+        color: #FFEED9;
+        font-size: .7rem;
+        text-decoration: none;
+    }
+    .footer-social{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .footer-social a{
+        color: #FFEED9;
+        font-size: .7rem;
+        text-decoration: none;
+    }
+    .footer-contact{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        color: #FFEED9;
+    }
+    .footer-contact a, p{
+        color: #FFEED9;
+        font-size: .7rem;
+        text-decoration: none;
+    }
+    .footer-end p{
+        color: #FFEED9;
+        font-size: .7rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        gap: 3rem;
+        background-color: #222831;
+    }
+    .footer-intro{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        padding-top: 8rem;
+    }
+    .footer-intro h1{
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 5rem;
+        color: #FFEED9;
+    }
+    .footer-intro button{
+        padding: .6rem 2.5rem .6rem 2.5rem;
+        background-color: #FFEED9;
+        color: #222831;
+    }
+    .footer-content{
+        display: flex;
+        align-items: flex-start;
+        gap: 5rem;
+        max-width: 75%;
+    }
+    .footer-content{
+        color: #FFEED9;
+    }
+    .footer-content h3{
+        font-size: 1rem;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .navigation a{
+        color: #FFEED9;
+        font-size: .9rem;
+        text-decoration: none;
+    }
+    .footer-social{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .footer-social a{
+        color: #FFEED9;
+        font-size: .9rem;
+        text-decoration: none;
+    }
+    .footer-contact{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        color: #FFEED9;
+    }
+    .footer-contact a, p{
+        color: #FFEED9;
+        font-size: .9rem;
+        text-decoration: none;
+    }
+    .footer-end p{
+        color: #FFEED9;
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        gap: 3rem;
+        background-color: #222831;
+    }
+    .footer-intro{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        padding-top: 8rem;
+    }
+    .footer-intro h1{
+        font-family: "Protest Strike", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 7rem;
+        color: #FFEED9;
+    }
+    .footer-intro button{
+        padding: 1rem 3rem 1rem 3rem;
+        background-color: #FFEED9;
+        color: #222831;
+    }
+    .footer-content{
+        display: flex;
+        align-items: flex-start;
+        gap: 5rem;
+        max-width: 75%;
+    }
+    .footer-content{
+        color: #FFEED9;
+    }
+    .footer-content h3{
+        font-size: 1.5rem;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .navigation a{
+        color: #FFEED9;
+        font-size: .9rem;
+        text-decoration: none;
+    }
+    .footer-social{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .footer-social a{
+        color: #FFEED9;
+        font-size: .9rem;
+        text-decoration: none;
+    }
+    .footer-contact{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        color: #FFEED9;
+    }
+    .footer-contact a, p{
+        color: #FFEED9;
+        font-size: .9rem;
+        text-decoration: none;
+    }
+    .footer-end p{
+        color: #FFEED9;
+        font-size: .9rem;
+    }
+}

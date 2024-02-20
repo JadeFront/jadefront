@@ -1,0 +1,506 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Protest+Strike&family=Rowdies:wght@300;400;700&family=Satisfy&display=swap');
+
+@media screen and (max-width: 480px){
+    .project-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        width: 95%;
+    }
+    .project-text h1{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.7rem;
+        color: #FFEED9;
+    }
+    .project-list{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .project-1{
+        background-image: url('./jadesweets.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 9rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .project-1:hover{
+        box-shadow: 0px 0px 32px -20px #FFEED9;
+    }
+    .project-1 h2{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.8rem;
+        color: #ECF9FF;
+    }
+    .project-1 p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: .9rem;
+        max-width: 70%;
+        color: #ECF9FF;
+    }
+    .project-1 a{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #2C3333;
+        border: solid 4px #2C3333;
+        background-color: #ECF9FF;
+        padding: .3rem 2rem;
+    }
+    .project-1 a:hover {
+        color: #ECF9FF;
+        border: solid 4px #ECF9FF;
+        background-color: #2C3333;
+    }
+
+    .project-2{
+        background-image: url('./home.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 9rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .project-2:hover{
+        box-shadow: 0px 0px 32px -20px #FFEED9;
+    }
+    .project-2 h2{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.8rem;
+        color: #ECF9FF;
+    }
+    .project-2 p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: .9rem;
+        max-width: 70%;
+        color: #ECF9FF;
+    }
+    .project-2 a{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #2C3333;
+        border: solid 4px #2C3333;
+        background-color: #ECF9FF;
+        padding: .3rem 2rem;
+    }
+    .project-2 a:hover {
+        color: #ECF9FF;
+        border: solid 4px #ECF9FF;
+        background-color: #2C3333;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .project-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        width: 95%;
+    }
+    .project-text h1{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2rem;
+        color: #FFEED9;
+    }
+    .project-list{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .project-1{
+        background-image: url('./jadesweets.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 9rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .project-1:hover{
+        box-shadow: 0px 0px 32px -20px #FFEED9;
+    }
+    .project-1 h2{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 2.3rem;
+        color: #ECF9FF;
+    }
+    .project-1 p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        max-width: 50%;
+        color: #ECF9FF;
+    }
+    .project-1 a{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #2C3333;
+        border: solid 4px #2C3333;
+        background-color: #ECF9FF;
+        padding: .4rem 2.5rem;
+    }
+    .project-1 a:hover {
+        color: #ECF9FF;
+        border: solid 4px #ECF9FF;
+        background-color: #2C3333;
+    }
+
+    .project-2{
+        background-image: url('./home.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 9rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .project-2:hover{
+        box-shadow: 0px 0px 32px -20px #FFEED9;
+    }
+    .project-2 h2{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 2.3rem;
+        color: #ECF9FF;
+    }
+    .project-2 p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        max-width: 50%;
+        color: #ECF9FF;
+    }
+    .project-2 a{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #2C3333;
+        border: solid 4px #2C3333;
+        background-color: #ECF9FF;
+        padding: .4rem 2.5rem;
+    }
+    .project-2 a:hover {
+        color: #ECF9FF;
+        border: solid 4px #ECF9FF;
+        background-color: #2C3333;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .project-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        width: 95%;
+    }
+    .project-text h1{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2.2rem;
+        color: #FFEED9;
+    }
+    .project-list{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .project-1{
+        background-image: url('./jadesweets.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 9rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .project-1:hover{
+        box-shadow: 0px 0px 32px -20px #FFEED9;
+    }
+    .project-1 h2{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 2.8rem;
+        color: #ECF9FF;
+    }
+    .project-1 p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.2rem;
+        max-width: 50%;
+        color: #ECF9FF;
+    }
+    .project-1 a{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #2C3333;
+        border: solid 4px #2C3333;
+        background-color: #ECF9FF;
+        padding: .6rem 3.5rem;
+    }
+    .project-1 a:hover {
+        color: #ECF9FF;
+        border: solid 4px #ECF9FF;
+        background-color: #2C3333;
+    }
+
+    .project-2{
+        background-image: url('./home.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 9rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .project-2:hover{
+        box-shadow: 0px 0px 32px -20px #FFEED9;
+    }
+    .project-2 h2{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 2.8rem;
+        color: #ECF9FF;
+    }
+    .project-2 p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.2rem;
+        max-width: 50%;
+        color: #ECF9FF;
+    }
+    .project-2 a{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #2C3333;
+        border: solid 4px #2C3333;
+        background-color: #ECF9FF;
+        padding: .6rem 3.5rem;
+    }
+    .project-2 a:hover {
+        color: #ECF9FF;
+        border: solid 4px #ECF9FF;
+        background-color: #2C3333;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .project-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        width: 95%;
+    }
+    .project-text h1{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2.5rem;
+        color: #FFEED9;
+    }
+    .project-list{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .project-1{
+        background-image: url('./jadesweets.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 9rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .project-1:hover{
+        box-shadow: 0px 0px 32px -20px #FFEED9;
+    }
+    .project-1 h2{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 3rem;
+        color: #ECF9FF;
+    }
+    .project-1 p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.2rem;
+        max-width: 40%;
+        color: #ECF9FF;
+    }
+    .project-1 a{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #2C3333;
+        border: solid 4px #2C3333;
+        background-color: #ECF9FF;
+        padding: .7rem 4rem;
+    }
+    .project-1 a:hover {
+        color: #ECF9FF;
+        border: solid 4px #ECF9FF;
+        background-color: #2C3333;
+    }
+
+    .project-2{
+        background-image: url('./home.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 9rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .project-2:hover{
+        box-shadow: 0px 0px 32px -20px #FFEED9;
+    }
+    .project-2 h2{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 3rem;
+        color: #ECF9FF;
+    }
+    .project-2 p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.2rem;
+        max-width: 40%;
+        color: #ECF9FF;
+    }
+    .project-2 a{
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #2C3333;
+        border: solid 4px #2C3333;
+        background-color: #ECF9FF;
+        padding: .7rem 4rem;
+    }
+    .project-2 a:hover {
+        color: #ECF9FF;
+        border: solid 4px #ECF9FF;
+        background-color: #2C3333;
+    }
+}
