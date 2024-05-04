@@ -1,0 +1,505 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --color1: #222831;
+    --color2: #31363F;
+    --color3: #F8F4EC;
+    --color4: #E1F7F5;
+    --color5: #F8EDFF;
+    
+}
+
+@media screen and (max-width: 480px){
+    #project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        max-width: 100%;
+   }
+   #project .title{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 90%;
+   }
+   .title h1{
+     border-bottom: solid 2px var(--color3);
+     padding-bottom: .5rem;
+  }
+   .project-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        max-width: 90%;
+   }
+   .landing-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+   }
+   .project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255,255,255,0.05);
+        -webkit-backdrop-filter: blur(1px);
+        backdrop-filter: blur(1px);
+        border: 1px solid rgba(255,255,255,0.025);
+        border-radius: 10px;
+    }
+    .project:hover{
+        box-shadow: 0px 0px 15px -10px var(--color3);
+    }
+    .project-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-img img{
+        max-width: 100%;
+        border-radius: 10px 10px 0 0;
+        filter: grayscale(100%);
+   }
+   .project-info{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+   }
+   .project-info h5{
+        font-weight: 200;
+        color: var(--color3);
+   }
+   .program{
+        display: flex;
+        flex-wrap: wrap;
+        gap: .5rem;
+        font-size: .8rem;
+   }
+   .program p{
+        border: solid 1px var(--color1);
+        padding: .2rem .5rem;
+        background-color: var(--color2);
+   }
+   .project-link a{
+        color: var(--color3);
+        text-decoration: none;
+        border: solid 1px var(--color3);
+        border-radius: 5px;
+        padding: .2rem 1rem;
+   }
+   .project-link a:hover{
+        background-color: var(--color1);
+   }
+   
+   .react-project{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+   }
+   .react:hover{
+        box-shadow: 0px 0px 15px -10px var(--color3);
+    }
+   .card {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-bottom: 1rem;
+        background: rgba(255,255,255,0.05);
+        -webkit-backdrop-filter: blur(1px);
+        backdrop-filter: blur(1px);
+        border: 1px solid rgba(255,255,255,0.025);
+        border-radius: 10px;
+   }
+   .card-detail{
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+   }
+   .card-img img{
+        border-radius: 10px 10px 0 0;
+        max-width: 100%;
+        filter: grayscale(100%);
+   }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    #project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        max-width: 100%;
+   }
+   #project .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        min-width: 90%;
+   }
+   .title h1{
+        border-bottom: solid 2px var(--color3);
+        padding-bottom: .5rem;
+   }
+   .project-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        max-width: 90%;
+   }
+   .landing-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+   }
+   .project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255,255,255,0.05);
+        -webkit-backdrop-filter: blur(1px);
+        backdrop-filter: blur(1px);
+        border: 1px solid rgba(255,255,255,0.025);
+        border-radius: 10px;
+    }
+    .project:hover{
+        box-shadow: 0px 0px 15px -10px var(--color3);
+    }
+    .project-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-img img{
+        max-width: 100%;
+        border-radius: 10px 10px 0 0;
+        filter: grayscale(100%);
+   }
+   .project-info{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+   }
+   .project-info h5{
+        font-weight: 200;
+        color: var(--color3);
+   }
+   .program{
+        display: flex;
+        flex-wrap: wrap;
+        gap: .5rem;
+        font-size: .8rem;
+   }
+   .program p{
+        border: solid 1px var(--color1);
+        padding: .2rem .5rem;
+        background-color: var(--color2);
+   }
+   .project-link a{
+        color: var(--color3);
+        text-decoration: none;
+        border: solid 1px var(--color3);
+        border-radius: 5px;
+        padding: .2rem 1rem;
+   }
+   .project-link a:hover{
+        background-color: var(--color1);
+   }
+   
+   .react:hover{
+    box-shadow: 0px 0px 15px -10px var(--color3);
+    }
+   .react-project{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+   }
+   .card {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-bottom: 1rem;
+        background: rgba(255,255,255,0.05);
+        -webkit-backdrop-filter: blur(1px);
+        backdrop-filter: blur(1px);
+        border: 1px solid rgba(255,255,255,0.025);
+        border-radius: 10px;
+   }
+   .card-detail{
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+   }
+   .card-img img{
+        border-radius: 10px 10px 0 0;
+        max-width: 100%;
+        filter: grayscale(100%);
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        max-width: 100%;
+   }
+   #project .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        min-width: 700px;
+   }
+   .title h1{
+         border-bottom: solid 2px var(--color3);
+         padding-bottom: .5rem;
+}
+   .project-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        max-width: 60%;
+   }
+   .landing-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+   }
+   .project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255,255,255,0.05);
+        -webkit-backdrop-filter: blur(1px);
+        backdrop-filter: blur(1px);
+        border: 1px solid rgba(255,255,255,0.025);
+        border-radius: 10px;
+    }
+    .project:hover{
+        box-shadow: 0px 0px 15px -10px var(--color3);
+    }
+    .project-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-img img{
+        max-width: 700px;
+        border-radius: 10px 10px 0 0;
+        filter: grayscale(100%);
+   }
+   .project-info{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+   }
+   .project-info h5{
+        font-weight: 200;
+        color: var(--color3);
+   }
+   .program{
+        display: flex;
+        flex-wrap: wrap;
+        gap: .5rem;
+        font-size: .8rem;
+   }
+   .program p{
+        border: solid 1px var(--color1);
+        padding: .2rem .5rem;
+        background-color: var(--color2);
+   }
+   .project-link a{
+        color: var(--color3);
+        text-decoration: none;
+        border: solid 1px var(--color3);
+        border-radius: 5px;
+        padding: .2rem 1rem;
+   }
+   .project-link a:hover{
+        background-color: var(--color1);
+   }
+   
+   .react:hover{
+    box-shadow: 0px 0px 15px -10px var(--color3);
+    }
+   .react-project{
+        display: flex;
+        gap: 1rem;
+   }
+   .card {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-bottom: 1rem;
+        background: rgba(255,255,255,0.05);
+        -webkit-backdrop-filter: blur(1px);
+        backdrop-filter: blur(1px);
+        border: 1px solid rgba(255,255,255,0.025);
+        border-radius: 10px;
+   }
+   .card-detail{
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+   }
+   .card-img img{
+        border-radius: 10px 10px 0 0;
+        max-width: 340px;
+        filter: grayscale(100%);
+   }
+}
+
+@media screen and (min-width: 1024px){
+   #project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        max-width: 100%;
+   }
+   #project .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 900px;
+   }
+   .title h1{
+        border-bottom: solid 2px var(--color3);
+        padding-bottom: .5rem;
+   }
+   .project-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        max-width: 60%;
+   }
+   .landing-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 1rem;
+   }
+   .project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255,255,255,0.05);
+        -webkit-backdrop-filter: blur(1px);
+        backdrop-filter: blur(1px);
+        border: 1px solid rgba(255,255,255,0.025);
+        border-radius: 10px;
+    }
+    .project:hover{
+        box-shadow: 0px 0px 15px -10px var(--color3);
+    }
+    .project-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-img img{
+        max-width: 700px;
+        border-radius: 10px 0 0 10px;
+        filter: grayscale(100%);
+   }
+   .project-info{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0 .5rem;
+   }
+   .project-info h5{
+        font-weight: 200;
+        color: var(--color3);
+   }
+   .program{
+        display: flex;
+        flex-wrap: wrap;
+        gap: .5rem;
+        font-size: .8rem;
+   }
+   .program p{
+        border: solid 1px var(--color1);
+        padding: .2rem .5rem;
+        background-color: var(--color2);
+   }
+   .project-link a{
+        color: var(--color3);
+        text-decoration: none;
+        border: solid 1px var(--color3);
+        border-radius: 5px;
+        padding: .2rem 1rem;
+   }
+   .project-link a:hover{
+        background-color: var(--color1);
+   }
+   
+   .react:hover{
+    box-shadow: 0px 0px 15px -10px var(--color3);
+    }
+   .react-project{
+        display: flex;
+        gap: 1rem;
+   }
+   .card {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-bottom: 1rem;
+        background: rgba(255,255,255,0.05);
+        -webkit-backdrop-filter: blur(1px);
+        backdrop-filter: blur(1px);
+        border: 1px solid rgba(255,255,255,0.025);
+        border-radius: 10px;
+   }
+   .card-detail{
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+   }
+   .card-img img{
+        border-radius: 10px 10px 0 0;
+        max-width: 430px;
+        filter: grayscale(100%);
+   }
+}
