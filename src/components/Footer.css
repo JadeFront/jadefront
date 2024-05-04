@@ -41,12 +41,24 @@
         font-size: 3rem;
    }
    .social{
-        display: flex;
-        gap: 1rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
    }
-   .social a{
-        font-size: 1.2rem;
-        color: var(--color3);
+   .social h5{
+     color: var(--color3);
+   }
+   .socials{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+   }
+   .socials a{
+     font-size: 1.5rem;
+     color: var(--color3);
    }
    .footer-copyright{
         margin-bottom: 5rem;
@@ -79,12 +91,24 @@
         font-size: 5rem;
    }
    .social{
-        display: flex;
-        gap: 1rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
    }
-   .social a{
-        font-size: 1.5rem;
-        color: var(--color3);
+   .social h5{
+     color: var(--color3);
+   }
+   .socials{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+   }
+   .socials a{
+     font-size: 1.5rem;
+     color: var(--color3);
    }
 }
 
@@ -114,13 +138,25 @@
         font-size: 7rem;
    }
    .social{
-        display: flex;
-        gap: 1rem;
-   }
-   .social a{
-        font-size: 1.5rem;
-        color: var(--color3);
-   }
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+     }
+     .social h5{
+          color: var(--color3);
+     }
+     .socials{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
+     }
+     .socials a{
+          font-size: 1.5rem;
+          color: var(--color3);
+     }
 }
 
 @media screen and (min-width: 1024px){
@@ -150,9 +186,21 @@
    }
    .social{
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 1rem;
    }
-   .social a{
+   .social h5{
+        color: var(--color3);
+   }
+   .socials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+   }
+   .socials a{
         font-size: 1.5rem;
         color: var(--color3);
    }

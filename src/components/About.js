@@ -1,37 +1,72 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './About.css'
 import Resume from './CV-Ayat_JadeLester.pdf'
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact } from "react-icons/fa6";
 import { SiJavascript } from "react-icons/si";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const About = () => {
-    
+    useEffect(() => {
+        AOS.init({
+            once: true
+        });
+    }, []);
   return (
     <section id='about'>
         <div className='about-container'>
             <div className='about-profile'>
-                <div className='info'>
+                <div className='info'
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000">
                     <h1>Jade Lester Ayat</h1>
                     <h5>Frontend Developer</h5>
                 </div>
                 <div className='skill'>
-                    <p><FaHtml5 /></p>
-                    <p><FaCss3Alt /></p>
-                    <p><SiJavascript /></p>
-                    <p><FaBootstrap /></p>
-                    <p><FaReact /></p>
+                    <p  data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1000"><FaHtml5 />
+                    </p>
+                    <p  data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1100"><FaCss3Alt />
+                    </p>
+                    <p  data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1200"><SiJavascript />
+                    </p>
+                    <p  data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1300"><FaBootstrap />
+                    </p>
+                    <p  data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1400"><FaReact />
+                    </p>
                 </div>
                 <div className='link'>
-                <a 
-                    href={Resume}
+                <a  href={Resume}
                     download="CV-Ayat-JadeLester.pdf"
                     target="_blank"
-                    rel="noreferrer">resume</a>
-                    <a href='https://github.com/JadeFront' target='blank'>github</a>
+                    rel="noreferrer"
+
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">resume
+                </a>
+                    <a href='https://github.com/JadeFront' target='blank'
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">github
+                </a>
                 </div>
             </div>
 
-            <div className='about-info'>
+            <div className='about-info'
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                     <h1>About me</h1>
                     <p>I'm an aspiring Frontend Developer 
                         with a passion for crafting 

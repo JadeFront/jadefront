@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Project.css'
 import sweet from './jadesweets.png'
 import footstep from './footstep.png'
 import instafamous from './instafamous.png'
 import todoapp from './todo.png'
 import weatherapp from './weather.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Project = () => {
+    useEffect(() => {
+      AOS.init({
+          once: true
+      });
+    }, []);
   return (
     <section id='project'>
       <div className='title'>
@@ -16,7 +23,10 @@ const Project = () => {
       <div className='project-container'>
 
         <div className='landing-page'>
-          <div className='project jadesweet'>
+          <div className='project jadesweet'
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2000">
             <div className='project-img'>
               <img src={sweet} alt='img'/>
             </div>
@@ -40,7 +50,10 @@ const Project = () => {
             </div>
           </div>
 
-          <div className='project footstep'>
+          <div className='project footstep'
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2000">
             <div className='project-img'>
               <img src={footstep} alt='img'/>
             </div>
@@ -64,7 +77,10 @@ const Project = () => {
             </div>
           </div>
 
-          <div className='project instafamous'>
+          <div className='project instafamous'
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2000">
             <div className='project-img'>
               <img src={instafamous} alt='img'/>
             </div>
@@ -89,7 +105,10 @@ const Project = () => {
         </div>
 
         <div className='react-project'>
-          <div className='react todoapp'>
+          <div className='react todoapp'
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
             <div className='card'>
               <div className='card-img'>
                 <img src={todoapp} alt='img'/>
@@ -111,7 +130,10 @@ const Project = () => {
             </div>
           </div>
 
-          <div className='react weatherapp'>
+          <div className='react weatherapp'
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
           <div className='card'>
               <div className='card-img'>
                 <img src={weatherapp} alt='img'/>

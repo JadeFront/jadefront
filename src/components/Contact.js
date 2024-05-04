@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useForm } from 'react-hook-form'
@@ -6,8 +6,17 @@ import * as yup from 'yup'
 import { yupResolver } from '@hookform/resolvers/yup'
 import Swal from 'sweetalert2'
 import './Contact.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init({
+            once: true
+        });
+      }, []);
+
+      
     const form = useRef();
 
 
@@ -55,7 +64,10 @@ const Contact = () => {
     <section id='contact'>
         <div className='contact-container'>
 
-            <div className='contact-intro'>
+            <div className='contact-intro'
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="2000">
                 <h4>Email me</h4>
                 <h1>Let's connect.</h1>
                 <p>
@@ -63,7 +75,10 @@ const Contact = () => {
                 </p>
             </div>
 
-            <form ref={form} onSubmit={handleSubmit(onSubmit)}> 
+            <form ref={form} onSubmit={handleSubmit(onSubmit)}
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="2000"> 
                 
                 <div>
                     <label>Name</label>
