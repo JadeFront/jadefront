@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jadefront/static/css/main.21d4cf00.css",
-    "main.js": "/jadefront/static/js/main.e3a80dc4.js",
+    "main.css": "/jadefront/static/css/main.bb3d2a08.css",
+    "main.js": "/jadefront/static/js/main.b5870175.js",
     "static/js/453.c5169bde.chunk.js": "/jadefront/static/js/453.c5169bde.chunk.js",
     "static/media/weather.png": "/jadefront/static/media/weather.4fb2d519ec91fee58950.png",
     "static/media/footstep.png": "/jadefront/static/media/footstep.6d7f4ea28e2d4ac8b3ee.png",
@@ -11,12 +11,12 @@
     "static/media/profile.png": "/jadefront/static/media/profile.bb4bd9b20d0ed929a8e5.png",
     "static/media/todo.png": "/jadefront/static/media/todo.48ba444934c3e67c3ad9.png",
     "index.html": "/jadefront/index.html",
-    "main.21d4cf00.css.map": "/jadefront/static/css/main.21d4cf00.css.map",
-    "main.e3a80dc4.js.map": "/jadefront/static/js/main.e3a80dc4.js.map",
+    "main.bb3d2a08.css.map": "/jadefront/static/css/main.bb3d2a08.css.map",
+    "main.b5870175.js.map": "/jadefront/static/js/main.b5870175.js.map",
     "453.c5169bde.chunk.js.map": "/jadefront/static/js/453.c5169bde.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21d4cf00.css",
-    "static/js/main.e3a80dc4.js"
+    "static/css/main.bb3d2a08.css",
+    "static/js/main.b5870175.js"
   ]
 }
