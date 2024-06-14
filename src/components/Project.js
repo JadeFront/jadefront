@@ -12,17 +12,22 @@ const Project = () => {
     useEffect(() => {
       AOS.init({
           once: true
-      });
+      }); 
     }, []);
   return (
     <section id='project'>
-      <div className='title'>
-        <h1>Projects</h1>
-      </div>
+      
 
       <div className='project-container'>
 
         <div className='landing-page'>
+          <div className='title
+           data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2000"'>
+            <h1>Projects</h1>
+          </div>
+
           <div className='project jadesweet'
             data-aos="fade-down"
             data-aos-easing="linear"

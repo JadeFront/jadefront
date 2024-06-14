@@ -39,6 +39,7 @@
         font-weight: 400;
         font-style: normal;
         font-size: 3rem;
+        padding-top: 1rem;
    }
    .social{
      display: flex;
@@ -52,9 +53,10 @@
    }
    .socials{
      display: flex;
+     flex-wrap: wrap;
      justify-content: center;
      align-items: center;
-     gap: 1rem;
+     gap: 2.5rem;
    }
    .socials a{
      font-size: 1.5rem;
@@ -63,25 +65,27 @@
    .footer-copyright{
         margin-bottom: 5rem;
    }
+   .footer-copyright p{
+          font-size: .8rem;
+   }
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px){
     footer{
         background-color: var(--color1);
-        min-height: 50dvh;
    }
    .footer-container{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        min-height: 50dvh;
    }
    .footer-title{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 1rem;
    }
    .footer-title h1{
         font-family: "Jaro", sans-serif;
@@ -96,6 +100,7 @@
      justify-content: center;
      align-items: center;
      gap: 1rem;
+     margin-bottom: 5rem;
    }
    .social h5{
      color: var(--color3);
@@ -104,7 +109,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     gap: 1rem;
+     gap: 4rem;
    }
    .socials a{
      font-size: 1.5rem;
@@ -113,36 +118,35 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
-    footer{
+     footer{
         background-color: var(--color1);
-        min-height: 50dvh;
-   }
-   .footer-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        min-height: 50dvh;
-   }
-   .footer-title{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-   }
-   .footer-title h1{
-        font-family: "Jaro", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 7rem;
-   }
-   .social{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     gap: 1rem;
+     }
+     .footer-container{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+     }
+     .footer-title{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+     .footer-title h1{
+          font-family: "Jaro", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 7rem;
+          }
+     .social{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
+          margin-bottom: 5rem;
      }
      .social h5{
           color: var(--color3);
@@ -151,7 +155,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          gap: 1rem;
+          gap: 4rem;
      }
      .socials a{
           font-size: 1.5rem;
@@ -190,6 +194,7 @@
         justify-content: center;
         align-items: center;
         gap: 1rem;
+        margin-bottom: 5rem;
    }
    .social h5{
         color: var(--color3);
@@ -198,7 +203,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 5rem;
    }
    .socials a{
         font-size: 1.5rem;

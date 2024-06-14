@@ -37,11 +37,21 @@
         z-index: 10;
    }
    .home-quote h1{
-        font-size: 2.8rem;
+        font-size: 2.3rem;
         color: var(--color3);
    }
    .home-image{
-        display: none;
+          background-color: var(--color1);
+          min-height: 100dvh;
+          min-width: 70%;
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+   }
+   .home-image img{
+          max-width: 100%;
+          padding-left: 5rem;
+          filter: grayscale(100%);
    }
 }
 
@@ -64,6 +74,7 @@
         padding-left: 1rem;
         border-left: solid 2px var(--color5);
         z-index: 10;
+        margin-bottom: 4rem;
    }
    .home-quote h1{
         font-size: 3rem;
@@ -100,6 +111,7 @@
         padding-left: 1rem;
         border-left: solid 2px var(--color5);
         z-index: 10;
+        margin-bottom: 5rem;
    }
    .home-quote h1{
         font-size: 3rem;
@@ -136,6 +148,7 @@
         padding-left: 1rem;
         border-left: solid 2px var(--color5);
         z-index: 10;
+        margin-bottom: 8rem;
    }
    .home-quote h1{
         font-size: 4rem;

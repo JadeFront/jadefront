@@ -77,10 +77,11 @@
           text-decoration: none;
           color: var(--color5);
           padding: .5rem 1.5rem;
-          border-bottom: solid 2px var(--color3);
+          border: solid 2px var(--color3);
+          border-radius: 5px;
      }
      .link a:hover{
-          box-shadow: 0px 21px 20px -15px var(--color3);
+          background-color: var(--color1);
      }
      .about-info{
           max-width: 100%;
@@ -89,8 +90,20 @@
           background-color: var(--color1);
      }
      .about-info h1{
-            font-size: 1.5rem;
-     }
+          font-size: 1.8rem;
+          color: var(--color3);
+          position: relative;
+          margin-bottom: 10px;
+   }
+     .about-info h1::after{
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 5px;
+          width: 120px;
+          background-color: var(--color3);
+   }
      .about-info p{
             text-align: justify;
             color: var(--color3);
@@ -160,10 +173,11 @@
           text-decoration: none;
           color: var(--color5);
           padding: .5rem 1.5rem;
-          border-bottom: solid 2px var(--color3);
+          border: solid 2px var(--color3);
+          border-radius: 5px;
      }
      .link a:hover{
-          box-shadow: 0px 21px 20px -15px var(--color3);
+          background-color: var(--color1);
      }
      .about-info{
           max-width: 80%;
@@ -172,8 +186,20 @@
           background-color: var(--color1);
      }
      .about-info h1{
-            font-size: 1.8rem;
-     }
+          font-size: 1.8rem;
+          color: var(--color3);
+          position: relative;
+          margin-bottom: 10px;
+   }
+     .about-info h1::after{
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 5px;
+          width: 120px;
+          background-color: var(--color3);
+   }
      .about-info p{
             text-align: justify;
             color: var(--color3);
@@ -239,10 +265,11 @@
           text-decoration: none;
           color: var(--color5);
           padding: .5rem 1.5rem;
-          border-bottom: solid 2px var(--color3);
+          border: solid 2px var(--color3);
+          border-radius: 5px;
      }
      .link a:hover{
-          box-shadow: 0px 21px 20px -15px var(--color3);
+          background-color: var(--color1);
      }
      .about-info{
           max-width: 50%;
@@ -251,8 +278,20 @@
           background-color: var(--color1);
      }
      .about-info h1{
-            font-size: 1.8rem;
-     }
+          font-size: 2rem;
+          color: var(--color3);
+          position: relative;
+          margin-bottom: 10px;
+   }
+     .about-info h1::after{
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 5px;
+          width: 120px;
+          background-color: var(--color3);
+   }
      .about-info p{
             text-align: justify;
             color: var(--color3);
@@ -317,12 +356,17 @@
         text-decoration: none;
         color: var(--color5);
         padding: .5rem 1.5rem;
-        border-bottom: solid 2px var(--color3);
+        border: solid 2px var(--color3);
+        border-radius: 5px;
    }
     .link a:hover{
-        box-shadow: 0px 21px 20px -15px var(--color3);
+        background-color: var(--color1);
     }
    .about-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
         max-width: 50%;
         padding: 2rem;
         border-left: 2px solid var(--color3);
@@ -330,6 +374,18 @@
    }
    .about-info h1{
           font-size: 2rem;
+          color: var(--color3);
+          position: relative;
+          margin-bottom: 10px;
+   }
+   .about-info h1::after{
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 5px;
+          width: 120px;
+          background-color: var(--color3);
    }
    .about-info p{
           text-align: justify;
