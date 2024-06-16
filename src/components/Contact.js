@@ -16,9 +16,6 @@ const Contact = () => {
         });
       }, []);
 
-      
-    const form = useRef();
-
 
     const schema = yup.object().shape({
         fullname: yup.string().required("Fullname required"),
@@ -30,7 +27,12 @@ const Contact = () => {
         resolver: yupResolver(schema)
     });
 
-    const onSubmit = (data, e) => {
+
+    const form = useRef();
+
+    
+
+    const sendEmail = (data, e) => {
         e.preventDefault();
 
         emailjs
@@ -75,7 +77,7 @@ const Contact = () => {
                 </p>
             </div>
 
-            <form ref={form} onSubmit={handleSubmit(onSubmit)}
+            <form ref={form} onSubmit={handleSubmit(sendEmail)}
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="2000"> 
